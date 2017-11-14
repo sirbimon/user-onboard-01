@@ -13,6 +13,8 @@
 		E78579C51FBA3846003F907A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78579C41FBA3846003F907A /* Assets.xcassets */; };
 		E78579C81FBA3846003F907A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78579C61FBA3846003F907A /* LaunchScreen.storyboard */; };
 		E78579D31FBA3846003F907A /* userCheckingPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78579D21FBA3846003F907A /* userCheckingPracticeTests.swift */; };
+		E78579E01FBB2310003F907A /* activitiesOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78579DF1FBB2310003F907A /* activitiesOnboardingView.swift */; };
+		E78579E21FBB28A0003F907A /* activitiesOnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78579E11FBB28A0003F907A /* activitiesOnboardingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E78579CE1FBA3846003F907A /* userCheckingPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = userCheckingPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78579D21FBA3846003F907A /* userCheckingPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userCheckingPracticeTests.swift; sourceTree = "<group>"; };
 		E78579D41FBA3846003F907A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78579DF1FBB2310003F907A /* activitiesOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activitiesOnboardingView.swift; sourceTree = "<group>"; };
+		E78579E11FBB28A0003F907A /* activitiesOnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = activitiesOnboardingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				E78579BD1FBA3846003F907A /* AppDelegate.swift */,
 				E78579BF1FBA3846003F907A /* ViewController.swift */,
+				E78579DF1FBB2310003F907A /* activitiesOnboardingView.swift */,
+				E78579E11FBB28A0003F907A /* activitiesOnboardingView.xib */,
 				E78579C11FBA3846003F907A /* Main.storyboard */,
 				E78579C41FBA3846003F907A /* Assets.xcassets */,
 				E78579C61FBA3846003F907A /* LaunchScreen.storyboard */,
@@ -179,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78579E21FBB28A0003F907A /* activitiesOnboardingView.xib in Resources */,
 				E78579C81FBA3846003F907A /* LaunchScreen.storyboard in Resources */,
 				E78579C51FBA3846003F907A /* Assets.xcassets in Resources */,
 				E78579C31FBA3846003F907A /* Main.storyboard in Resources */,
@@ -201,6 +208,7 @@
 			files = (
 				E78579C01FBA3846003F907A /* ViewController.swift in Sources */,
 				E78579BE1FBA3846003F907A /* AppDelegate.swift in Sources */,
+				E78579E01FBB2310003F907A /* activitiesOnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

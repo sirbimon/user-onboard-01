@@ -8,18 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    
+    @IBOutlet weak var activitiesView: activitiesOnboardingView!
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func textFieldChanged(_ sender: Any) {
+        print(textField.text!)
+        if textField.text == "" {
+            activitiesView.animateLeft()
+        } else {
+            activitiesView.animateRight()
+            activitiesView.explanationLabel.text = "So you're interested in \"\(textField.text ?? "dumbo")\" eh?"
+        }
+        
+        
+    }
+    
 
 }
 
